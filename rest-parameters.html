@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest parameters </title>
+</head>
+<body>
+    <script>
+        // Rest parameters ...
+        // rest parameters always write last 
+        // e.g :- (a,b,d,...args).....this is right
+        // e.g :- (a,...args,b,c).....this is wrong
+        function add(...args) {
+            document.write(args);
+        }
+        add("jhangeer<br>" , "sikander<br>" , "sulaiman<br>");
+        add("basit<br>" , "mudassir<br>" , "mubashir<br>");
+    </script>
+</body>
+</html>
